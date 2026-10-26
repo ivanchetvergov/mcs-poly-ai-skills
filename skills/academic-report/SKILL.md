@@ -1,11 +1,11 @@
 ---
 name: academic-report
-description: Prepare, revise, and check university lab reports in LaTeX using the assignment, existing project, actual code and results, and known course requirements. Use for requests to write an academic report or for the text command \otchet.
+description: Create or substantially revise a university lab report in LaTeX from the assignment, existing project, code, and actual results. Use for report writing or the text command \otchet; use review-report for an audit of an existing draft.
 ---
 
 # Учебные отчёты
 
-Используй этот скилл при подготовке, доработке и проверке отчётов по учебным работам. Запись `\otchet` в сообщении пользователя означает запрос на работу с отчётом, а не встроенную команду интерфейса.
+Используй этот скилл при подготовке и существенной доработке отчётов по учебным работам. Запись `\otchet` в сообщении пользователя означает запрос на работу с отчётом, а не встроенную команду интерфейса. Для отдельного аудита готового черновика используй `review-report`.
 
 ## Порядок работы
 
@@ -17,4 +17,4 @@ description: Prepare, revise, and check university lab reports in LaTeX using th
 
 Приоритет требований: прямое указание пользователя → задание и критерии преподавателя → [профиль дисциплины и преподавателя](references/teachers.md) → [общие правила](references/common-rules.md).
 
-Перед написанием отчёта прочитай [общие правила](references/common-rules.md). Для известных дисциплин и преподавателей прочитай соответствующий раздел [профилей](references/teachers.md); для остальных следуй заданию и не выдумывай специальные требования.
+Перед написанием отчёта прочитай [общие правила](references/common-rules.md). Для известных дисциплин и преподавателей прочитай соответствующий раздел [профилей](references/teachers.md); для остальных следуй заданию и не выдумывай специальные требования. При отчётах с математическим описанием, анализом алгоритма или эксперимента используй [технические ориентиры](references/technical-writing.md).
