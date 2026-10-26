@@ -12,7 +12,7 @@
 | Подготовить показ и ответы преподавателю | [prepare-defense](skills/prepare-defense/SKILL.md) |
 | Написать или существенно доработать LaTeX-отчёт | [academic-report](skills/academic-report/SKILL.md) |
 | Проверить и исправить существующий отчёт | [review-report](skills/review-report/SKILL.md) |
-| Исследовать данные и качество ML-модели | [analyze-ml-experiment](skills/analyze-ml-experiment/SKILL.md) |
+| Написать или отредактировать отдельный объясняющий текст | [write-clear-text](skills/write-clear-text/SKILL.md) |
 
 Материалы в `references/` открываются по мере необходимости. Конкретное задание, критерии преподавателя и существующие файлы проекта определяют содержание работы. Скиллы не задают единый шаблон для всех дисциплин.
 
