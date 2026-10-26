@@ -11,13 +11,13 @@ Use this skill for Russian university reports and laboratory work in computer sc
 
 1. Inspect the assignment, source code, data, previous report and the supplied LaTeX example before drafting.
 2. Treat the assignment as authoritative for scope, source code as authoritative for implementation, and measured outputs as authoritative for results. Do not invent missing values; leave explicit placeholders in draft reports.
-3. Follow the course structure when applicable: title page, contents, introduction, problem statement, mathematical description, implementation, results, analysis, conclusion and references.
-4. Keep the report modular. Use `main.tex` as the ordered assembly point, `settings.tex` for shared formatting, semantically named chapter files, and dedicated directories for tables, figures and code excerpts.
+3. Follow the assignment and existing course structure. Use a title page, contents, introduction, problem statement, mathematical description, implementation, results, analysis, conclusion and references only where applicable.
+4. Preserve the existing project layout. For a new substantial report, use `main.tex` as the ordered assembly point and split large sections into files when it makes the source easier to maintain.
 5. Use direct Russian technical prose. Define notation, distinguish implementation facts from interpretations, and keep numerical claims traceable to source code, a derivation, a measurement or a table.
 6. Avoid numbered and bulleted lists in report prose. Present advantages, limitations, steps and classifications in connected paragraphs unless the assignment explicitly requires a list. Structured data may remain in tables.
 7. For function descriptions, state the function name, input, output, behavior and complexity where relevant; follow with a short source listing when it clarifies the implementation.
-8. Use restrained typography close to the supplied course template: A4, 14pt body text, serif text, Russian language support, readable tables and code. Avoid manual spacing hacks and numbered equations unless references require equation numbers.
-9. Put generated auxiliary files and PDFs under `build/`. Compile with the project's existing `./build.sh` workflow and inspect warnings, references and rendered pages.
+8. Use the supplied course template's typography and readable tables and code. Avoid manual spacing hacks and numbered equations unless references require equation numbers.
+9. Compile with the project's actual build command, whether `./build.sh`, `latexmk main.tex` or another command. Keep generated files in the project's established location; inspect warnings, references and rendered pages.
 10. Before completion, validate assignment coverage, source/report consistency, duplicate labels, undefined references and final PDF layout.
 
 ## Project convention
